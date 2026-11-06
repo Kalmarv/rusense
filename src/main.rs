@@ -26,5 +26,5 @@ fn gen_cm_range(min: f64, max: f64) -> Option<f64> {
     }
     let mut rng = rand::thread_rng();
     let rand: f64 = rng.gen_range(min..=max);
-    return Some(rand);
+    Some(rand)
 }
